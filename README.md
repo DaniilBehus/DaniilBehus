@@ -1,30 +1,26 @@
 # Daniil Behus
 
-**Software testing · API testing · Test automation**
+**Software testing · API testing · browser automation**
 
-I turn requirements and edge cases into reproducible checks, investigate failures,
-and document the path from a defect to its regression test.
+I turn requirements into testable conditions, automate important user and API flows, and document failures so they can be reproduced and checked again.
 
-## Featured project — Wallet Tracker
+## Explore my work
 
-[**Explore Wallet Tracker →**](https://github.com/DaniilBehus/wallet-tracker)
+[**Wallet Tracker — personal QA project →**](https://github.com/DaniilBehus/wallet-tracker)
 
-A personal finance app for expenses, recurring charges and loans, built together
-with its test design, API checks, browser automation and defect reports.
+A small expense tracker with a connected QA trail: requirements, test design, automated checks, recorded results, and defect investigations.
 
-| Explore my work | What you will find |
+| If you want to… | Start here |
 |---|---|
-| [Test design](https://github.com/DaniilBehus/wallet-tracker/blob/main/qa/docs/test-design.md) | How a change becomes a set of test cases |
-| [API testing](https://github.com/DaniilBehus/wallet-tracker/tree/main/qa/api) | Postman collections and automated assertions |
-| [Browser automation](https://github.com/DaniilBehus/wallet-tracker/tree/main/qa/e2e) | Playwright scenarios and page objects |
-| [Defect investigations](https://github.com/DaniilBehus/wallet-tracker/tree/main/qa/docs/defects) | Reproduction, root cause, fix and regression checks |
-| [AI feature testing](https://github.com/DaniilBehus/wallet-tracker/blob/main/qa/docs/ai-case-study.md) | Offline validation and fixture-based evaluation, with explicit limits |
+| See the product | [Wallet Tracker and its screenshots](https://github.com/DaniilBehus/wallet-tracker#the-four-screens) |
+| Follow a feature from requirement to result | [Monthly spending limit analysis](https://github.com/DaniilBehus/wallet-tracker/blob/main/qa/docs/analysis-monthly-limit.md) → [test report](https://github.com/DaniilBehus/wallet-tracker/blob/main/qa/docs/test-report-monthly-limit.md) |
+| Inspect automated checks | [Postman API collection](https://github.com/DaniilBehus/wallet-tracker/blob/main/qa/api/wallet.postman_collection.json) · [pytest](https://github.com/DaniilBehus/wallet-tracker/blob/main/qa/python/test_api.py) · [Playwright](https://github.com/DaniilBehus/wallet-tracker/tree/main/qa/e2e) |
+| Trace defects and regression coverage | [Defect investigations](https://github.com/DaniilBehus/wallet-tracker/tree/main/qa/docs/defects) · [CI runs](https://github.com/DaniilBehus/wallet-tracker/actions/workflows/ci.yml) |
 
-## Tools used in the project
+## Tools used in this project
 
-**Testing:** Playwright · Postman / Newman · pytest / httpx · k6  
-**Application:** JavaScript · Node.js · Express · SQLite  
-**Workflow:** Git · GitHub Actions
+- **Test design and execution:** Playwright, Postman/Newman, pytest/httpx, k6
+- **Application under test:** JavaScript, Node.js, Express, SQLite
+- **Delivery and evidence:** Git, GitHub Actions, Markdown reports
 
-The links above point to work in my personal project. AI evaluation uses fixtures;
-it does not claim measured real-model quality.
+This is a personal project, not a claim of commercial experience. The AI feature's automated evaluation uses offline fixtures; real-model quality has not been measured.

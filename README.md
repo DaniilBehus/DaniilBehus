@@ -12,8 +12,9 @@ A small expense tracker with a connected QA trail: requirements, test design, au
 
 | If you want to… | Start here |
 |---|---|
-| See the product | [Wallet Tracker and its screenshots](https://github.com/DaniilBehus/wallet-tracker#the-four-screens) |
+| See the product | [Wallet Tracker and its screenshots](https://github.com/DaniilBehus/wallet-tracker#screenshots) |
 | Follow a feature from requirement to result | [Monthly spending limit analysis](https://github.com/DaniilBehus/wallet-tracker/blob/main/qa/docs/analysis-monthly-limit.md) → [test report](https://github.com/DaniilBehus/wallet-tracker/blob/main/qa/docs/test-report-monthly-limit.md) |
+| Understand the API checks | [API examples, contract and coverage](https://github.com/DaniilBehus/wallet-tracker/blob/main/docs/api/README.md) |
 | Inspect automated checks | [Postman API collection](https://github.com/DaniilBehus/wallet-tracker/blob/main/qa/api/wallet.postman_collection.json) · [pytest](https://github.com/DaniilBehus/wallet-tracker/blob/main/qa/python/test_api.py) · [Playwright](https://github.com/DaniilBehus/wallet-tracker/tree/main/qa/e2e) |
 | Trace defects and regression coverage | [Defect investigations](https://github.com/DaniilBehus/wallet-tracker/tree/main/qa/docs/defects) · [CI runs](https://github.com/DaniilBehus/wallet-tracker/actions/workflows/ci.yml) |
 
@@ -24,3 +25,4 @@ A small expense tracker with a connected QA trail: requirements, test design, au
 - **Delivery and evidence:** Git, GitHub Actions, Markdown reports
 
 This is a personal project, not a claim of commercial experience. The AI feature's automated evaluation uses offline fixtures; real-model quality has not been measured.
+
